@@ -1,0 +1,450 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/templates/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+#wrapper {
+  overflow-x: hidden;
+  background-color: rgb(11, 18, 30);
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  background-color: rgb(11, 18, 30);
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+  border-right: 1px solid rgb(17, 236, 229);
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.7rem;
+  color: white;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+  background-color: rgb(11, 18, 30);
+}
+
+#sidebar-wrapper .list-group .list-group-item {
+  background-color: rgb(11, 18, 30) !important;
+  color: rgb(17, 236, 229);
+  font-weight: 500;
+  border-bottom: 1px solid rgba(17, 236, 229, 0.25);
+}
+
+/* .navbar {
+  background-color: rgb(11, 18, 30);
+} */
+
+.navbar #menu-toggle {
+  border: 1px solid rgb(17, 236, 229);
+  color: white;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+.navbar .navbar-nav .btnLogout {
+  border: 1px solid white;
+  color: rgb(255, 209, 43);
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+#navAccount {
+  font-weight: 700;
+}
+
+.listBtnManage {
+  margin: 2rem;
+}
+.btnManage {
+  display: inline-block;
+  padding: 1rem;
+  margin: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: rgb(17, 236, 229);
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  transition: 0.3s border-color ease-out;
+}
+.btnManage:hover {
+  border-color: rgb(255, 209, 43);
+  text-decoration: none;
+  color: white;
+}
+
+.alert {
+  color: red;
+  padding: 0.25rem 0;
+  margin-bottom: 0;
+}
+
+.userAvatar {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.welcome h1 {
+  color: white;
+}
+.welcome h4 {
+  color: rgb(17, 236, 229);
+}
+
+.cateImage {
+  width: 100px;
+  border-radius: 10px;
+}
+.cateBanner {
+  width: 100px;
+  border-radius: 2px;
+}
+.prodImage {
+  width: 75px;
+  border-radius: 5px;
+}
+.content {
+  padding: 2rem 1rem;
+}
+.content .title {
+  margin: 0.5rem 0;
+}
+.content .title h3 {
+  margin: 0.5rem 0;
+  color: rgb(17, 236, 229);
+  font-size: 36px;
+}
+.content .amount p {
+  color: white;
+}
+.content .search {
+  margin: 0.5rem 0;
+}
+
+.content .filter {
+  margin: 0.8rem 0;
+}
+
+.content .filter select {
+  background: transparent;
+  border: 1px solid rgb(17, 236, 229);
+  border-radius: 5px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.content .filter select option {
+  color: black;
+}
+
+.content .search input {
+  width: 30%;
+  border: none;
+  border-bottom: 1px solid rgb(17, 236, 229);
+  border-radius: 5px;
+  color: white;
+  background: transparent;
+}
+
+.content .search input:focus {
+  border-bottom: 1px solid rgb(255, 209, 43);
+  outline: none;
+}
+.btn-search {
+  margin-left: 0.5rem;
+  padding: 2px 1rem;
+  border: 1px solid rgb(17, 236, 229);
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+}
+.btn-search:hover {
+  color: rgb(17, 236, 229);
+  border: 1px solid rgb(255, 209, 43);
+}
+.btn-create {
+  height: 2.5rem;
+  width: 2.5rem;
+  border: 1px solid rgb(17, 236, 229);
+  border-radius: 5px;
+  background: transparent;
+}
+.btn-create i {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 209, 43);
+  transition: 0.5s color ease-in;
+}
+.btn-create:hover {
+  border: 1px solid rgb(255, 209, 43);
+}
+.btn-create:hover i {
+  color: rgb(17, 236, 229);
+}
+
+.btn-edit {
+  color: white;
+  border: 1px solid rgb(17, 236, 229);
+}
+.btn-edit:hover {
+  background: rgb(17, 236, 229);
+  color: black;
+}
+.btn-delete {
+  color: white;
+  border: 1px solid rgb(255, 209, 43);
+}
+.btn-delete:hover {
+  background: rgb(255, 209, 43);
+}
+.btn-back {
+  background-color: transparent;
+  border: 1px solid rgb(17, 236, 229);
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
+}
+.btn-back:hover {
+  color: #f5af19;
+  text-decoration: none;
+}
+
+.btn-save {
+  background: transparent;
+  border: 1px solid rgb(17, 236, 229);
+  color: white;
+}
+.btn-save:hover {
+  background: rgb(17, 236, 229);
+  color: black;
+}
+
+.btn-close {
+  background: transparent;
+  border: 1px solid red;
+  color: white;
+}
+
+.btn-close:hover {
+  background: red;
+  color: white;
+}
+
+.btn-content-review {
+  color: rgb(255, 209, 43);
+  border: 1px solid white;
+  transition: 0.3s background-color ease-in-out;
+  margin-bottom: 1rem;
+}
+
+.btn-content-review:hover {
+  color: rgb(11, 18, 30);
+  border: 1px solid rgb(255, 209, 43);
+  background-color: rgb(255, 209, 43);
+}
+
+.productDetail {
+  margin-top: 1rem !important;
+  color: white;
+}
+
+.productDetail .table-info {
+  background: transparent;
+}
+
+.productDetail .table-info .table th,
+.productDetail .table-info .table td {
+  border-top: none;
+  border-bottom: 1px solid rgb(17, 236, 229);
+}
+
+.productDetail .table-info .table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.reviewDetail {
+  color: white;
+}
+.reviewDetail img {
+  max-width: 720px;
+}
+
+.productTitle a {
+  color: rgb(17, 236, 229);
+  font-weight: bold;
+  transition: 0.3s color ease-in;
+}
+.productTitle a:hover {
+  color: white;
+  text-decoration: none;
+}
+.table {
+  color: white;
+}
+
+.table th {
+  text-align: left;
+  border-top: 2px solid rgb(17, 236, 229);
+}
+.table td {
+  border-top: 1px solid rgb(17, 236, 229);
+}
+.table thead th {
+  border-bottom: 2px solid rgb(17, 236, 229);
+}
+.form-group label {
+  font-weight: bold;
+}
+.form-group .form-control {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.pagination {
+  background: transparent;
+}
+
+.pagination .page-item.active .page-link {
+  border-color: rgb(255, 209, 43);
+  color: rgb(17, 236, 229);
+}
+
+.pagination .page-item .page-link {
+  background: transparent;
+  color: white;
+  border-color: rgb(17, 236, 229);
+}
+
+.loginForm {
+  /* background: rgb(11, 18, 30); */
+  margin-top: 2rem;
+}
+.loginForm .loginTitle {
+  color: rgb(17, 236, 229);
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.loginForm .form-group {
+  margin: 2rem 0;
+}
+
+.loginForm .form-group label {
+  color: white;
+  font-size: 24px;
+}
+
+.loginForm .form-group input {
+  background: transparent;
+  border-bottom: 1px solid rgb(17, 236, 229);
+  color: white;
+}
+
+.loginForm .form-group input:focus {
+  box-shadow: 0 0 0 0.1rem rgba(17, 236, 229, 0.25);
+  border-radius: 5px;
+}
+
+.loginForm .btn-login {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  border: 1px solid rgb(17, 236, 229);
+  background-color: transparent;
+  transition: 0.3s background-color ease-out;
+}
+
+.loginForm .btn-login:hover {
+  color: rgb(11, 18, 30);
+  font-weight: 500;
+  font-size: 20px;
+  border: 1px solid rgb(17, 236, 229);
+  background-color: rgb(17, 236, 229);
+}
+
+.modal-content {
+  background: rgb(11, 18, 30);
+  border: 2px solid rgb(17, 236, 229);
+}
+
+.modal-content .modal-body .form-group label {
+  color: white;
+}
+.modal-content .modal-body .form-group input {
+  background: transparent;
+  border-bottom: 1px solid rgb(17, 236, 229);
+  color: white;
+}
+
+.modal-content .modal-body .form-group input#file-upload-button {
+  background: transparent;
+  border-bottom: 1px solid rgb(17, 236, 229);
+  color: white;
+}
+
+.modal-content .modal-body .form-group select {
+  background: transparent;
+  border: 1px solid rgb(17, 236, 229);
+  border-radius: 5px;
+}
+.modal-content .modal-body .form-group textarea {
+  background: transparent;
+  border: 1px solid rgb(17, 236, 229);
+  border-radius: 5px;
+  color: white;
+}
+
+.ql-editor {
+  color: white;
+}
+
+.clientPageBtn a {
+  border: 1px solid #f5af19;
+  padding: 5px;
+  font-size: 24px;
+  background-color: transparent;
+  color: #f5af19;
+  transition: 0.3s background-color ease-in-out, 0.3s color ease-in-out;
+}
+
+.clientPageBtn a:hover {
+  border: 1px solid rgb(17, 236, 229);
+  background-color: rgb(17, 236, 229);
+  color: rgb(11, 18, 30);
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}

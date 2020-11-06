@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: "Roboto Slab", "Courier New", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(11, 18, 30);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
