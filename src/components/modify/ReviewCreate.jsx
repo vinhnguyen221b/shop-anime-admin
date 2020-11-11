@@ -113,7 +113,7 @@ function ReviewCreate({ setReviewChange }) {
                     type="text"
                     name="title"
                     className="form-control"
-                    placeholder="Enter category name"
+                    placeholder="Enter review title"
                     onChange={handleChange}
                   />
                   {errors && errors.title && (

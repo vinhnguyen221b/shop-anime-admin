@@ -26,7 +26,9 @@ function Welcome(props) {
           </Link>
         </div>
         <div className="clientPageBtn col-12 mt-4">
-          <a href="https://client.com">GO TO CLIENT PAGE</a>
+          <a href="https://shop-anime-client.herokuapp.com/">
+            GO TO CLIENT PAGE
+          </a>
         </div>
       </div>
     </div>
